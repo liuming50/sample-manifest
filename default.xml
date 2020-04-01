@@ -12,7 +12,7 @@
   <project remote="bitbake-completion" name="bitbake-bash-completion" path="sources/bitbake-bash-completion"/>
 
   <project remote="ming" name="meta-sample" path="sources/meta-sample">
-    <linkfile dest="poky-init-build-env" src="poky-init-build-env"/>
+    <linkfile dest="poky-init-build-env" src="scripts/poky-init-build-env"/>
     <linkfile dest="README.md" src="README.md"/>
   </project>
 
